@@ -1,3 +1,3 @@
 class Organization < ApplicationRecord
-  belongs_to :users
+  has_many :users
 end
